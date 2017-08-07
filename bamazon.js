@@ -23,7 +23,7 @@ function runEntry(){
 		}
 		else {
 			for (var i = 0; i < res.length; i++) {
-				console.log("ID#:" + res[i].item_id + " || Item: " + res[i].product_name + " || Price: $" + res[i].price + " || Item Quantity: " + res[i].stock_qty);
+				console.log("ID#:" + res[i].item_id + " | Item: " + res[i].product_name + " | Price: $" + res[i].price + " | Item Quantity: " + res[i].stock_qty);
 				console.log("------------------------------------------")
 			}
 				}
